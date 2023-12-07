@@ -1,6 +1,6 @@
 {
-  "name": "armada-cli",
-  "version": "0.3.3",
+  "name": "@dmanjunath/armada-cli-debug",
+  "version": "0.3.3-debug-2",
   "description": "Command line utility for the Armada Network",
   "homepage": "https://armadanetwork.com",
   "license": "MIT",
