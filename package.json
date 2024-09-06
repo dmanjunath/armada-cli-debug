@@ -1,6 +1,6 @@
 {
   "name": "@dmanjunath/armada-cli-debug",
-  "version": "0.7.1-debug1",
+  "version": "0.7.1-debug2",
   "description": "Command line utility for EarthFast",
   "homepage": "https://earthfast.com",
   "license": "MIT",
@@ -19,7 +19,8 @@
   "files": [
     "/bin",
     "/dist",
-    "/oclif.manifest.json"
+    "/oclif.manifest.json",
+    ".env"
   ],
   "repository": {
     "type": "git",
