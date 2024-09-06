@@ -1,7 +1,8 @@
-// eslint-disable-next-line import/order
+/* eslint-disable import/order */
 import dotenv from "dotenv";
+import path from "path";
 
-dotenv.config();
+dotenv.config({ path: [path.resolve(__dirname, "..", ".env"), path.resolve(__dirname, "../../", ".env")] });
 
 import { Command, Flags } from "@oclif/core";
 import { CommandError, FlagOutput, Input, ParserOutput } from "@oclif/core/lib/interfaces";

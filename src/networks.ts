@@ -19,4 +19,5 @@ export const Networks: Record<NetworkName, NetworkInfo> = {
   },
 };
 
+console.log("network", rpcUrl);
 export const NetworkNames = Object.keys(Networks) as NetworkName[];
